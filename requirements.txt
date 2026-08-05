@@ -1,0 +1,15 @@
+# Data download
+requests>=2.32
+
+# Data wrangling & database
+pandas>=2.2
+numpy>=1.26
+
+# Machine learning
+scikit-learn>=1.4
+
+# Analysis notebooks
+matplotlib>=3.9
+seaborn>=0.13
+jupyter>=1.0
+nbformat>=5.10
