@@ -6,6 +6,9 @@ SQLite, explore it with SQL, and train two scikit-learn regression models
 to predict sale price from county, year, and property type — with an
 honest look at how well that actually works, and why.
 
+![Average sale price by county, 2010 to 2026](images/price-by-county.png)
+*Average residential sale price by county across all 797,774 sales in the register, from 2010 to mid-2026, queried from SQLite.*
+
 ```
 scripts/download_data.py  -->  data/raw/PPR-ALL.csv        (raw register, ~800k sales)
 scripts/load_to_sqlite.py -->  data/processed/housing.db   (cleaned, typed, indexed)
